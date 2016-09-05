@@ -1,0 +1,446 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		09EE4C4945441869A892C534 /* Pods_SlimJean.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1A404EC49235D347EC2B232D /* Pods_SlimJean.framework */; };
+		BF29A6A51D7A7BA400C199B1 /* SJColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF29A6A41D7A7BA400C199B1 /* SJColor.swift */; };
+		BF50DCCF1D7C5F59006F1540 /* Record+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50DCCD1D7C5F59006F1540 /* Record+CoreDataProperties.swift */; };
+		BF50DCD01D7C5F59006F1540 /* Record.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50DCCE1D7C5F59006F1540 /* Record.swift */; };
+		BF50DCD21D7C717C006F1540 /* SJAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50DCD11D7C717C006F1540 /* SJAlert.swift */; };
+		BF50DCD41D7CF91A006F1540 /* RateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF50DCD31D7CF91A006F1540 /* RateViewController.swift */; };
+		BF923D951D7A67B90081D2E2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BF923D941D7A67B90081D2E2 /* AppDelegate.swift */; };
+		BF923D9A1D7A67B90081D2E2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF923D981D7A67B90081D2E2 /* Main.storyboard */; };
+		BF923D9D1D7A67B90081D2E2 /* SlimJean.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BF923D9B1D7A67B90081D2E2 /* SlimJean.xcdatamodeld */; };
+		BF923D9F1D7A67B90081D2E2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BF923D9E1D7A67B90081D2E2 /* Assets.xcassets */; };
+		BF923DA21D7A67B90081D2E2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BF923DA01D7A67B90081D2E2 /* LaunchScreen.storyboard */; };
+		BFF55A511D7BB116004D9F77 /* MeasureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF55A501D7BB116004D9F77 /* MeasureViewController.swift */; };
+		BFF55A541D7BCE03004D9F77 /* Helper.swift in Sources */ = {isa = PBXBuildFile; fileRef = BFF55A531D7BCE03004D9F77 /* Helper.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1A404EC49235D347EC2B232D /* Pods_SlimJean.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_SlimJean.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6CF7F593C38C8956D18B1309 /* Pods-SlimJean.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlimJean.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SlimJean/Pods-SlimJean.debug.xcconfig"; sourceTree = "<group>"; };
+		BF29A6A41D7A7BA400C199B1 /* SJColor.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SJColor.swift; path = Model/SJColor.swift; sourceTree = "<group>"; };
+		BF50DCCD1D7C5F59006F1540 /* Record+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Record+CoreDataProperties.swift"; path = "Model/Record+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		BF50DCCE1D7C5F59006F1540 /* Record.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Record.swift; path = Model/Record.swift; sourceTree = "<group>"; };
+		BF50DCD11D7C717C006F1540 /* SJAlert.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SJAlert.swift; path = Controller/SJAlert.swift; sourceTree = "<group>"; };
+		BF50DCD31D7CF91A006F1540 /* RateViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = RateViewController.swift; path = Controller/RateViewController.swift; sourceTree = "<group>"; };
+		BF923D911D7A67B90081D2E2 /* SlimJean.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SlimJean.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BF923D941D7A67B90081D2E2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BF923D991D7A67B90081D2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BF923D9C1D7A67B90081D2E2 /* SlimJean.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SlimJean.xcdatamodel; sourceTree = "<group>"; };
+		BF923D9E1D7A67B90081D2E2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BF923DA11D7A67B90081D2E2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BF923DA31D7A67B90081D2E2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFF55A501D7BB116004D9F77 /* MeasureViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = MeasureViewController.swift; path = Controller/MeasureViewController.swift; sourceTree = "<group>"; };
+		BFF55A531D7BCE03004D9F77 /* Helper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Helper.swift; path = Controller/Helper.swift; sourceTree = "<group>"; };
+		C51E16D4A8D998110D7F80D2 /* Pods-SlimJean.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SlimJean.release.xcconfig"; path = "Pods/Target Support Files/Pods-SlimJean/Pods-SlimJean.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BF923D8E1D7A67B90081D2E2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				09EE4C4945441869A892C534 /* Pods_SlimJean.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A17ECAED2F9C5FA5E355F43E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1A404EC49235D347EC2B232D /* Pods_SlimJean.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF29A6A01D7A7B3A00C199B1 /* Config */ = {
+			isa = PBXGroup;
+			children = (
+				BF923D941D7A67B90081D2E2 /* AppDelegate.swift */,
+				BF923DA31D7A67B90081D2E2 /* Info.plist */,
+			);
+			name = Config;
+			sourceTree = "<group>";
+		};
+		BF29A6A11D7A7B5100C199B1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				BF50DCCD1D7C5F59006F1540 /* Record+CoreDataProperties.swift */,
+				BF50DCCE1D7C5F59006F1540 /* Record.swift */,
+				BF29A6A41D7A7BA400C199B1 /* SJColor.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		BF923D881D7A67B90081D2E2 = {
+			isa = PBXGroup;
+			children = (
+				BF923D931D7A67B90081D2E2 /* SlimJean */,
+				BF923D921D7A67B90081D2E2 /* Products */,
+				EDF4AC75F46023B3713B0747 /* Pods */,
+				A17ECAED2F9C5FA5E355F43E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BF923D921D7A67B90081D2E2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BF923D911D7A67B90081D2E2 /* SlimJean.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BF923D931D7A67B90081D2E2 /* SlimJean */ = {
+			isa = PBXGroup;
+			children = (
+				BFF55A4F1D7BB0DB004D9F77 /* Controller */,
+				BFF55A4E1D7BB04C004D9F77 /* View */,
+				BF29A6A11D7A7B5100C199B1 /* Model */,
+				BF29A6A01D7A7B3A00C199B1 /* Config */,
+				BF923D9E1D7A67B90081D2E2 /* Assets.xcassets */,
+				BF923D9B1D7A67B90081D2E2 /* SlimJean.xcdatamodeld */,
+			);
+			path = SlimJean;
+			sourceTree = "<group>";
+		};
+		BFF55A4E1D7BB04C004D9F77 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				BF923D981D7A67B90081D2E2 /* Main.storyboard */,
+				BF923DA01D7A67B90081D2E2 /* LaunchScreen.storyboard */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		BFF55A4F1D7BB0DB004D9F77 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				BFF55A501D7BB116004D9F77 /* MeasureViewController.swift */,
+				BFF55A531D7BCE03004D9F77 /* Helper.swift */,
+				BF50DCD11D7C717C006F1540 /* SJAlert.swift */,
+				BF50DCD31D7CF91A006F1540 /* RateViewController.swift */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		EDF4AC75F46023B3713B0747 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6CF7F593C38C8956D18B1309 /* Pods-SlimJean.debug.xcconfig */,
+				C51E16D4A8D998110D7F80D2 /* Pods-SlimJean.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BF923D901D7A67B90081D2E2 /* SlimJean */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BF923DA61D7A67B90081D2E2 /* Build configuration list for PBXNativeTarget "SlimJean" */;
+			buildPhases = (
+				70916C66DCD4C81BB1FFAB24 /* [CP] Check Pods Manifest.lock */,
+				BF923D8D1D7A67B90081D2E2 /* Sources */,
+				BF923D8E1D7A67B90081D2E2 /* Frameworks */,
+				BF923D8F1D7A67B90081D2E2 /* Resources */,
+				2B58653DD4B81A3312AE1399 /* [CP] Embed Pods Frameworks */,
+				57864A4AC496A8A80F203A7B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SlimJean;
+			productName = SlimJean;
+			productReference = BF923D911D7A67B90081D2E2 /* SlimJean.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BF923D891D7A67B90081D2E2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = huibin;
+				TargetAttributes = {
+					BF923D901D7A67B90081D2E2 = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = BF923D8C1D7A67B90081D2E2 /* Build configuration list for PBXProject "SlimJean" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BF923D881D7A67B90081D2E2;
+			productRefGroup = BF923D921D7A67B90081D2E2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BF923D901D7A67B90081D2E2 /* SlimJean */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BF923D8F1D7A67B90081D2E2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF923DA21D7A67B90081D2E2 /* LaunchScreen.storyboard in Resources */,
+				BF923D9F1D7A67B90081D2E2 /* Assets.xcassets in Resources */,
+				BF923D9A1D7A67B90081D2E2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		2B58653DD4B81A3312AE1399 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlimJean/Pods-SlimJean-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		57864A4AC496A8A80F203A7B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SlimJean/Pods-SlimJean-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		70916C66DCD4C81BB1FFAB24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BF923D8D1D7A67B90081D2E2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BF50DCD41D7CF91A006F1540 /* RateViewController.swift in Sources */,
+				BF29A6A51D7A7BA400C199B1 /* SJColor.swift in Sources */,
+				BF923D9D1D7A67B90081D2E2 /* SlimJean.xcdatamodeld in Sources */,
+				BFF55A541D7BCE03004D9F77 /* Helper.swift in Sources */,
+				BF923D951D7A67B90081D2E2 /* AppDelegate.swift in Sources */,
+				BF50DCD01D7C5F59006F1540 /* Record.swift in Sources */,
+				BF50DCD21D7C717C006F1540 /* SJAlert.swift in Sources */,
+				BF50DCCF1D7C5F59006F1540 /* Record+CoreDataProperties.swift in Sources */,
+				BFF55A511D7BB116004D9F77 /* MeasureViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		BF923D981D7A67B90081D2E2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF923D991D7A67B90081D2E2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BF923DA01D7A67B90081D2E2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BF923DA11D7A67B90081D2E2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BF923DA41D7A67B90081D2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		BF923DA51D7A67B90081D2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BF923DA71D7A67B90081D2E2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6CF7F593C38C8956D18B1309 /* Pods-SlimJean.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlimJean/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeleaf.SlimJean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BF923DA81D7A67B90081D2E2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C51E16D4A8D998110D7F80D2 /* Pods-SlimJean.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = SlimJean/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.codeleaf.SlimJean;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BF923D8C1D7A67B90081D2E2 /* Build configuration list for PBXProject "SlimJean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF923DA41D7A67B90081D2E2 /* Debug */,
+				BF923DA51D7A67B90081D2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BF923DA61D7A67B90081D2E2 /* Build configuration list for PBXNativeTarget "SlimJean" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BF923DA71D7A67B90081D2E2 /* Debug */,
+				BF923DA81D7A67B90081D2E2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BF923D9B1D7A67B90081D2E2 /* SlimJean.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BF923D9C1D7A67B90081D2E2 /* SlimJean.xcdatamodel */,
+			);
+			currentVersion = BF923D9C1D7A67B90081D2E2 /* SlimJean.xcdatamodel */;
+			path = SlimJean.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BF923D891D7A67B90081D2E2 /* Project object */;
+}

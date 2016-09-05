@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="10174" systemVersion="15G31" minimumToolsVersion="Automatic">
+    <entity name="Record" representedClassName=".Record" syncable="YES">
+        <attribute name="created_at" attributeType="Date" indexed="YES" syncable="YES"/>
+        <attribute name="created_on" attributeType="String" indexed="YES" syncable="YES"/>
+        <attribute name="weight" attributeType="Double" minValueString="0" maxValueString="400" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Record" positionX="-63" positionY="-18" width="128" height="88"/>
+    </elements>
+</model>
